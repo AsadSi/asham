@@ -1,38 +1,21 @@
 import { Metadata } from "next";
 import Hero from "@/components/Hero";
-import Brands from "@/components/Brands";
-import Feature from "@/components/Features";
-import NextElectionMessage from "@/components/NextElectionMessage";
 import About from "@/components/About";
-import FeaturesTab from "@/components/FeaturesTab";
-import FunFact from "@/components/FunFact";
-import Integration from "@/components/Integration";
-import CTA from "@/components/CTA";
-import FAQ from "@/components/FAQ";
-import Pricing from "@/components/Pricing";
-import Contact from "@/components/Contact";
-import Blog from "@/components/Blog";
-import Testimonial from "@/components/Testimonial";
-import WhyMe from "@/components/WhyMe";
 import Support from "@/components/Support";
+import Instagram from "@/components/Instagram";
+import Contact from "@/components/Contact";
 
 export const metadata: Metadata = {
-  title: "Next.js Starter Template for SaaS Startups - Solid SaaS Boilerplate",
-
-  // other metadata
-  description: "This is Home for Solid Pro"
+  title: "Asham Agha Nadeem - Kandidat til Kommunalvalget 2025",
+  description: "Jeg brænder for at skabe en by, hvor københavner får bedre muligheder, og hvor fællesskab og lighed er i centrum. Til daglig arbejder jeg i NGO’en Turning Tables, jeg har stiftet organisationen Danish Youth in Action og står bag podcasten Gadens Parlament. Tidligere var jeg spidskandidat til folketingsvalget, hvor jeg sammen med mit hold skabte en af de mest succesfulde kampagner for Frie Grønne."
 };
 
 export default function Home() {
   return (
     <main>
       <Hero />
-      <Brands />
       <About />
-      <FeaturesTab />
-      <NextElectionMessage />
-      <WhyMe />
-      <Integration />
+      <Instagram />
       <Support />
       <Contact />
     </main>
